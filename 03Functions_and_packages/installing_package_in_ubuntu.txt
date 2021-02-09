@@ -1,0 +1,68 @@
+How To Install NumPy
+NumPy (Numerical Python) is an open-source library for the Python programming
+ language. It is used for scientific computing and working with arrays.
+
+Apart from its multidimensional array object, it also provides high-level
+ functioning tools for working with arrays
+
+Installing NumPy
+Step 1: Check Python Version
+To check whether you have Python 2, run the command:
+python -V
+The output should give you a version number.
+
+To see if you have Python 3 on your system, enter the following in the
+ terminal window:
+python3 -V
+
+Step 2: Install Pip
+The easiest way to install NumPy is by using Pip. Pip a package manager for
+ installing and managing Python software packages.
+Unlike Python, Pip does not come preinstalled on most operating systems.
+ Therefore, you need to set up the package manager that corresponds to the
+ version of Python you have. If you have both versions of Python, install
+ both Pip versions as well.
+he commands below use the apt utility as we are installing on Ubuntu 
+Install Pip (for Python 2) by running:
+sudo apt install python-pip
+
+If you need Pip for Python 3, use the command:
+sudo apt install python3-pip
+
+Finally, verify you have successfully installed Pip by typing pip -V
+ and/or pip3 -V
+
+Step 3: Install NumPy
+With Pip set up, you can use its command line for installing NumPy.
+
+Install NumPy with Python 2 by typing:
+pip install numpy
+
+To install NumPy with the package manager for Python 3, run:
+pip3 install numpy
+
+Step 4: Verify NumPy Installation
+Use the show command to verify whether NumPy is now part of you Python
+ packages:
+pip show numpy
+
+And for Pip3 type:
+pip3 show numpy
+
+The output should confirm you have NumPy, which version you are using,
+ as well as where the package is stored.
+
+Step 5: Import the NumPy Package
+After installing NumPy you can import the package and set an alias for it.
+To do so, move to the python prompt by typing one of the following
+ commands: 
+
+python 
+
+python3
+
+Once you are in the python or python3 prompt you can import the new
+ package and add an alias for it (in the example below it is np):
+
+import numpy as np
+
